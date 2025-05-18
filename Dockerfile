@@ -13,5 +13,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Expose port
 EXPOSE 5000
 
-# Run the app
+# Run the app fast
 CMD ["python", "app.py"]
